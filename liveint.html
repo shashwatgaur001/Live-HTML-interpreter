@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <link rel="stylesheet" type="text/css" href="liveint.css ">
+
+<script>
+function one()
+{
+
+x= document.getElementById("d2");
+z=document.getElementById("textArea");
+x.innerHTML = z.value;
+
+}
+
+</script>
+
+
+</head>
+<body>
+<div id="output"> Output: </div>
+<div id="d1"> 
+ <textarea id="textArea" onkeyup="one()" style="background-color:whitesmoke;" width="300px" height="200px   ">
+</textarea>
+</div>
+
+
+
+ 
+<div id="d2"> </div> 
+
+
+</body>
+
+
+</html>
